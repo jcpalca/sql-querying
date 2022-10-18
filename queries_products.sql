@@ -23,3 +23,18 @@ INSERT INTO products
   (name, price, can_be_returned)
   VALUES
     ('table', 124.00, FALSE);
+
+-- Display all of the rows and columns in the table.
+
+SELECT *
+  FROM products;
+
+-- Display all of the names of the products.
+
+SELECT name
+  FROM products;
+
+-- Display all of the names and prices of the products.
+
+SELECT name, price
+  FROM products;
