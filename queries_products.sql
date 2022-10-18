@@ -38,3 +38,10 @@ SELECT name
 
 SELECT name, price
   FROM products;
+
+-- Add a new product - make up whatever you would like!
+
+INSERT INTO products
+  (name, price, can_be_returned)
+  VALUES
+    ('couch', 200.00, TRUE);
